@@ -15,6 +15,18 @@
 
   <p id="demo"></p>
 
+  <!--! statements innerHTML-->
+  <h2>JavaScript Statements</h2>
+  
+  <p>In HTML, JavaScript statements are executed by the browser.</p>
+  
+  <p id="demo"></p>
+  
+  <script>
+    document.getElementById("demo").innerHTML = "Hello Dolly.";
+  </script>
+
+
   <script>
     let x, y, z;  // Statement 1
     x = 5;        // Statement 2
@@ -22,7 +34,7 @@
     z = x + y;    // Statement 4
 
     document.getElementById("demo").innerHTML = "The value Z is "+ z +".";
-    
+
   </script>
 </body>
 
