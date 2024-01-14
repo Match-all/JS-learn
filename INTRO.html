@@ -22,18 +22,20 @@
 <p id="inner"></p>
 <p id="demo1"></p>
 <p id="demo"></p>
-
+<p id="demo2"></p>
 <script>
-  let x, y, z, a, b, c;  // Remove unused variables d and e
+  let x, y, z, a, b, c, d, e, f;  // Remove unused variables d and e
   x = 5;        // Statement 
   y = 6;        // Statement 
   a = 2;        // Statement 
   b = 6;        // Statement (you may want to remove either this or the next line)
   c = a + b;    // Statement 
   z = x + y;    // Statement 
+  d = 3; e = 4; f = d + e;
   document.getElementById("inner").innerHTML = "Hello Dolly.";
   document.getElementById("demo1").innerHTML = c;
   document.getElementById("demo").innerHTML = "The value Z is " + z + ".";
+  document.getElementById("demo2").innerHTML = f;
 </script>
 
 </body>
