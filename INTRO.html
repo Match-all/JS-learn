@@ -13,29 +13,29 @@
 
   <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
 
-  <p id="demo"></p>
 
   <!--! statements innerHTML-->
   <h2>JavaScript Statements</h2>
-  
+
   <p>In HTML, JavaScript statements are executed by the browser.</p>
-  
-  <p id="inner"></p>
-  
-  <script>
-    document.getElementById("inner").innerHTML = "Hello Dolly.";
-  </script>
 
+<p id="inner"></p>
+<p id="demo1"></p>
+<p id="demo"></p>
 
-  <script>
-    let x, y, z;  // Statement 1
-    x = 5;        // Statement 2
-    y = 6;        // Statement 3
-    z = x + y;    // Statement 4
+<script>
+  let x, y, z, a, b, c;  // Remove unused variables d and e
+  x = 5;        // Statement 
+  y = 6;        // Statement 
+  a = 2;        // Statement 
+  b = 6;        // Statement (you may want to remove either this or the next line)
+  c = a + b;    // Statement 
+  z = x + y;    // Statement 
+  document.getElementById("inner").innerHTML = "Hello Dolly.";
+  document.getElementById("demo1").innerHTML = c;
+  document.getElementById("demo").innerHTML = "The value Z is " + z + ".";
+</script>
 
-    document.getElementById("demo").innerHTML = "The value Z is "+ z +".";
-
-  </script>
 </body>
 
 </html>
