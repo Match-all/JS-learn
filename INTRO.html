@@ -4,20 +4,25 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Alert Example</title>
+  <title>JS-Statements</title>
 
 </head>
 
 <body>
-  <h1>My First Web Page</h1>
-  <p>My First Paragraph</p>
+  <h2>JavaScript Statements</h2>
 
-  
-  <button onclick="document.write(14 + 2)">display the answer</button>
+  <p>A <b>JavaScript program</b> is a list of <b>statements</b> to be executed by a computer.</p>
+
   <p id="demo"></p>
+
   <script>
-    document.getElementById('demo').innerHTML = 2 + 6;
-    document.write(4+2);
+    let x, y, z;  // Statement 1
+    x = 5;        // Statement 2
+    y = 6;        // Statement 3
+    z = x + y;    // Statement 4
+
+    document.getElementById("demo").innerHTML = "The value Z is "+ z +".";
+    
   </script>
 </body>
 
