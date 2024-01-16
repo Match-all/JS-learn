@@ -1,5 +1,4 @@
 //JavaScript Operators start.
-
 let x; //JavaScript Variables
 x = 6; //JavaScript Variables
 
@@ -16,3 +15,4 @@ document.getElementById("string").innerHTML = "John Doe"; //Strings
 document //JavaScript Operators end.
 
 document.getElementById('st').innerHTML ="Tamirat" + " " + "Teferi";
+document.getElementById('g').innerHTML = y;
