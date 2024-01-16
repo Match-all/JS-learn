@@ -1,1 +1,1 @@
-# JS-learn
+# JS-variables
