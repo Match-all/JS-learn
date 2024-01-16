@@ -16,3 +16,37 @@ document //JavaScript Operators end.
 
 document.getElementById('st').innerHTML ="Tamirat" + " " + "Teferi";
 document.getElementById('g').innerHTML = y;
+
+
+
+ // JavaScript code within the script tag
+    let myVariable = "Hello, World!";
+
+    // Output the value of the variable to the console
+    console.log(myVariable);
+
+    // You can use the variable within this block
+    if (true) {
+      let anotherVariable = "This is another variable.";
+      console.log(anotherVariable);
+    }
+
+    // This would result in an error because anotherVariable is not accessible here
+    // console.log(anotherVariable); // ReferenceError: anotherVariable is not defined
+
+
+    // Using var
+      function exampleVar() {
+        if (true) {
+          var x = 10;
+        }
+        console.log(x); // Outputs 10, var is function-scoped
+      }
+
+      // Using let
+      function exampleLet() {
+        if (true) {
+          let y = 20;
+        }
+        console.log(y); // ReferenceError: y is not defined, let is block-scoped
+      }
