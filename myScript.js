@@ -2,6 +2,13 @@
 
 let x; //JavaScript Variables
 x = 6; //JavaScript Variables
+
+// assigning JS operators
+let T, F;
+  T = 12;
+  F = 3 ;
+  document.getElementById ('opr').innerHTML = T + F ;
+
 document.getElementById("ops").innerHTML = (5 + 5) * 1;
 document.getElementById("mo").innerHTML = "This is the value of x:" + x ;
 document.getElementById("number").innerHTML = 10.5; ///  number
